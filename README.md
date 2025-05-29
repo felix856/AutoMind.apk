@@ -1,6 +1,5 @@
-# 🚗 AutoMind
-
-**AutoMind** é um aplicativo Android inteligente para ajudar motoristas a monitorar o consumo de combustível e gerenciar a manutenção do seu veículo, incluindo o registro e histórico de trocas de óleo. Projetado para quem busca economia, controle e organização no dia a dia com o carro ou moto.
+# 🚗 Media_Consumo
+**Media_Consumo** é um aplicativo Android inteligente para ajudar motoristas a monitorar o consumo de combustível e gerenciar a manutenção do seu veículo, incluindo o registro e histórico de trocas de óleo. Projetado para quem busca economia, controle e organização no dia a dia com o carro ou moto.
 
 ---
 
@@ -38,14 +37,9 @@
 
 ---
 
-## 📱 Capturas de Tela *(opcional)*
-
-> Adicione aqui imagens do app rodando no dispositivo ou emulador.
-
----
 
 ## ⚙️ Como Rodar
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/AutoMind.git
+   git clone https://github.com/seu-usuario/Media_Consumo.git
