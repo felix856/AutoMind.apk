@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cores principais -->
+    <color name="cor_primaria">#cf9232</color>
+    <color name="cor_texto_primaria">#282828</color>
+    <color name="cor_variacao_primaria">#dda82a</color>
+
+    <!-- Cores secundárias -->
+    <color name="cor_secundaria">#b27b2d</color>
+    <color name="cor_texto_secundaria">#000000</color>
+
+    <!-- Superfície e fundo -->
+    <color name="cor_superficie">#ffffff</color>
+    <color name="cor_texto_superficie">#000000</color>
+    <color name="cor_fundo">#f5f5f5</color>
+    <color name="cor_texto_fundo">#000000</color>
+
+    <!-- Erro e estados -->
+    <color name="cor_erro">#cf9232</color>
+    <color name="cor_texto_erro">#ffffff</color>
+</resources>
