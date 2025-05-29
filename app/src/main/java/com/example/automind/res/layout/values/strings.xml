@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Media_Consumo</string>
+
+
+    <!-- MainActivity -->
+    <string name="tv_data_placeholder">Data: —</string>
+    <string name="tv_data_format">Data: %1$s</string>
+    <string name="hint_km_anterior">Km anterior (ex: 15000)</string>
+    <string name="hint_km_atual">Km atual (ex: 15250)</string>
+    <string name="hint_litros_abastecidos">Litros abastecidos (ex: 10.5)</string>
+    <string name="hint_preco_litro">Preço por litro (R$ ex: 5.50)</string>
+    <string name="botao_registrar">Registrar e Calcular</string>
+    <string name="resultado_format">
+        Distância: %.1f km\nConsumo médio: %.2f km/l\nCusto total: R$ %.2f\nCusto por km: R$ %.3f
+    </string>
+    <string name="media_geral_placeholder">MÉDIA GERAL: —</string>
+    <string name="media_geral_format">MÉDIA GERAL\nConsumo: %.2f km/l\nCusto km: R$ %.3f</string>
+    <string name="sobre_titulo">Sobre o App</string>
+    <string name="sobre_descricao">
+    Este aplicativo foi criado como projeto de aperfeiçoamento de habilidades em desenvolvimento Android.
+    Sou estudante de Análise e Desenvolvimento de Sistemas na FMP  e estou sempre buscando aprender novas tecnologias e boas práticas de código.
+</string>
+    <string name="sobre_creditos">Desenvolvido por Felix Francisco • 2025</string>
+    <string name="sobre_linkedin_text">LinkedIn</string>
+    <string name="sobre_linkedin_url">https://www.linkedin.com/in/f%C3%A9lix-francisco-639224216/</string>
+    <!-- HistóricoActivity / item_historico.xml -->
+    <string name="sem_media">MÉDIA GERAL: —</string>
+    <string name="erro_preencher_campos">Preencha todos os campos</string>
+    <string name="btn_ajuda">Ajuda</string>
+    <string name="btn_voltar">Voltar</string>
+    <!-- Toasts -->
+    <string name="erro_valores_invalidos">Valores inválidos</string>
+    <string name="erro_checar_valores">Checa os valores: Km atual &gt; Km anterior; litros e preço &gt; 0</string>
+    <string name="Como_usar">Como usar ?</string>
+    <string name="botao_limpar_tela">Limpar\n</string>
+    <string name="desc_rv_historico">Histórico de trocas de óleo</string>
+</resources>

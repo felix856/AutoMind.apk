@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Tema de aplicação com Material3 DayNight -->
+    <style name="Theme.Media_Consumo" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary -->
+        <item name="colorPrimary">@color/cor_primaria</item>
+        <item name="colorOnPrimary">@color/cor_texto_primaria</item>
+        <item name="colorPrimaryContainer">@color/cor_variacao_primaria</item>
+
+        <!-- Secondary -->
+        <item name="colorSecondary">@color/cor_secundaria</item>
+        <item name="colorOnSecondary">@color/cor_texto_secundaria</item>
+
+        <!-- Surface -->
+        <item name="colorSurface">@color/cor_superficie</item>
+        <item name="colorOnSurface">@color/cor_texto_superficie</item>
+
+        <!-- Background geral -->
+        <item name="android:colorBackground">@color/cor_fundo</item>
+        <item name="colorOnBackground">@color/cor_texto_fundo</item>
+
+        <!-- Error -->
+        <item name="colorError">@color/cor_erro</item>
+        <item name="colorOnError">@color/cor_texto_erro</item>
+    </style>
+
+</resources>
