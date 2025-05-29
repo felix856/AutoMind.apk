@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_oil_change_history.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".OilChangeHistoryActivity">
+
+    <!-- RecyclerView: ocupa quase toda a tela -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/desc_rv_historico"
+        tools:ignore="SpeakableTextPresent"
+        tools:listitem="@layout/item_troca_oleo" />
+
+    <!-- Botões na parte inferior, alinhados à direita -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:paddingTop="8dp">
+
+        <Button
+            android:id="@+id/buttonClearHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Limpar Histórico"
+            android:textColor="#FFFFFFFF"
+            android:textColorLink="#FFFFFFFF"/>
+
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:text="Voltar"
+            android:textColor="#FFFFFFFF"
+            android:textColorLink="#FFFFFFFF"/>
+    </LinearLayout>
+</LinearLayout>

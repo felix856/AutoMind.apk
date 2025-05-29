@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#cf9232"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/tv_data_placeholder"
+            android:textColorLink="#000000"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/etKmAnterior"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:autofillHints=""
+            android:hint="@string/hint_km_anterior"
+            android:inputType="numberDecimal"
+            android:textColor="#000000"
+            android:textColorHint="#656464"
+            android:textColorLink="#000000" />
+
+        <EditText
+            android:id="@+id/etKmAtual"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:autofillHints=""
+            android:textColor="#000000"
+            android:textColorHint="#656464"
+            android:textColorLink="#000000"
+            android:hint="@string/hint_km_atual"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/etLitros"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:autofillHints=""
+            android:textColorHint="#656464"
+            android:textColorLink="#000000"
+            android:textColor="#000000"
+            android:hint="@string/hint_litros_abastecidos"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/etPreco"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:autofillHints=""
+            android:hint="@string/hint_preco_litro"
+            android:textColorHint="#656464"
+            android:textColorLink="#000000"
+            android:textColor="#000000"
+
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/btnCalcular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#cf9232"
+            android:text="@string/botao_registrar"
+            android:textColor="#FFFFFFFF"
+            android:textColorLink="#FFFFFFFF" />
+
+        <TextView
+            android:id="@+id/tvResultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text=""
+            android:textSize="16sp"
+            android:textColorHint="#656464"
+            android:textColorLink="#000000"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/tvMediaGeral"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/media_geral_placeholder"
+            android:textColorHint="#656464"
+            android:textColorLink="#000000"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnSobre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#cf9232"
+            android:text="Sobre o App"
+            android:textColor="#FFFFFFFF"
+            android:textColorLink="#FFFFFFFF"
+            android:gravity="center"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"/>
+
+
+        <Button
+            android:id="@+id/btnLimparTela"
+            android:layout_width="106dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#cf9232"
+            android:text="@string/botao_limpar_tela"
+            android:textColor="#FFFFFFFF"
+            android:textColorLink="#FFFFFFFF"
+            android:gravity="center"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            />
+
+
+        <Button
+            android:id="@+id/btnTrocaOleo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:gravity="center"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:text="Registrar Troca de Óleo"
+            android:textColor="#FFFFFFFF"
+            android:textColorLink="#FFFFFFFF" />
+
+
+
+        <Button
+            android:id="@+id/btnAjuda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#cf9232"
+            android:textColor="#FFFFFFFF"
+            android:gravity="center"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:text="@string/btn_ajuda" />
+
+
+
+
+    </LinearLayout>
+</ScrollView>

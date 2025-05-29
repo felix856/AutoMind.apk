@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Data (dd/MM/yyyy)"
+        android:textColorLink="#000000"
+        android:textColor="#000000"
+        android:textColorHint="#656464"/>
+
+    <EditText
+        android:id="@+id/editOdometro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Odômetro"
+        android:textColorLink="#000000"
+        android:textColor="#000000"
+        android:textColorHint="#656464"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editCusto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Custo"
+        android:textColorLink="#000000"
+        android:textColor="#000000"
+        android:textColorHint="#656464"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editObs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorLink="#000000"
+        android:textColor="#000000"
+        android:textColorHint="#656464"
+
+        android:hint="Observações (opcional)" />
+
+    <Button
+        android:id="@+id/buttonSalvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar"
+        android:layout_marginTop="12dp"
+        android:textColor="#FFFFFFFF"
+        android:textColorLink="#FFFFFFFF"/>
+
+
+    <Button
+        android:id="@+id/buttonVerHistorico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Ver Histórico"
+        android:textColor="#FFFFFFFF"
+        android:textColorLink="#FFFFFFFF"/>
+    <Button
+        android:id="@+id/buttonTelaPrincipal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Menu"
+        android:textColor="#FFFFFFFF"
+        android:textColorLink="#FFFFFFFF"/>
+
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/cor_fundo">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/Como_usar"
+            android:textColor="#cf9232"
+            android:textColorHighlight="#cf9232"
+            android:textColorHint="#cf9232"
+            android:textColorLink="#cf9232"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="1. Preencha a quilometragem anterior e atual do seu veículo."
+            android:textColor="#040101"
+            android:textColorLink="#000000FF" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="2. Informe quantos litros foram abastecidos e o preço por litro."
+            android:textColor="#040202" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="3. Toque em 'Calcular' para ver o consumo médio, custo total e custo por km."
+            android:textColor="#100E0E" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="4. A média geral é atualizada com cada novo cálculo, somando todos os registros feitos."
+            android:textColor="#020204" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="5. Os dados são salvos automaticamente no celular."
+            android:textColor="#000000" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="6. Acesse o 'Histórico de Trocas de Óleo' para visualizar todos os registros salvos."
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="7. Você também pode limpar o histórico ou voltar à tela anterior usando os botões na parte inferior."
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvCreditosSobre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sobre_creditos"
+            android:textColor="?attr/colorOnBackground"
+            android:textSize="14sp"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnVoltar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_voltar"
+            android:backgroundTint="@color/cor_primaria"
+            android:textColor="@color/cor_superficie" />
+
+    </LinearLayout>
+</ScrollView>
